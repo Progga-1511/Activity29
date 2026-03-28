@@ -38,3 +38,14 @@ print("Number of occurrences of the number 3 in the said array: "+str(array_num.
 array_num.reverse()
 print("Reverse the order of the items: ")
 print(str(array_num))
+
+A={1,2,3}
+B={3,4,5}
+union_set=A | B
+print(union_set)
+
+sym_set=A.symmetric_difference(B)
+print(sym_set)
+
+asym_set=A-B
+print(asym_set)
